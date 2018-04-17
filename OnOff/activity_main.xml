@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shivani.onoff.MainActivity">
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/wifiOnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wifi ON"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            />
+
+        <Button
+            android:id="@+id/wifiOffButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Wifi OFF"
+            android:padding="16dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mobileDataOnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Data ON"
+            android:layout_margin="5dp"
+            android:padding="16dp"
+            />
+
+        <Button
+            android:id="@+id/mobileDataOffButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Mobile Data OFF"
+            android:padding="16dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hotspotOnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hotspot ON"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            />
+
+        <Button
+            android:id="@+id/hotspotOffButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Hotspot OFF"
+            android:padding="16dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bluetoothOnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth ON"
+            android:layout_margin="10dp"
+            android:padding="16dp"
+            />
+
+        <Button
+            android:id="@+id/bluetoothOffButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Bluetooth OFF"
+            android:padding="16dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
